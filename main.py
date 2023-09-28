@@ -10,7 +10,7 @@ BASE_URL = "http://35.153.8.123"
 app = Flask(__name__, template_folder="templates")
 app.config["APPLICATION_ROOT"] = f"{BASE_URL}"
 # configure the SQLite database, relative to the app instance folder
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:admin123@estudando.cyaaxddd99rd.us-east-1.rds.amazonaws.com:5432/postgres"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:admin123@learning.cyaaxddd99rd.us-east-1.rds.amazonaws.com:5432/postgres"
 # initialize the app with the extension
 db.init_app(app)
 # Setup the Flask-JWT-Extended extension
