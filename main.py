@@ -7,7 +7,7 @@ from database.models import User
 
 from flask_jwt_extended import JWTManager, set_access_cookies
 
-BASE_URL = "http://44.202.120.195"
+BASE_URL = "http://54.204.80.85"
 
 app = Flask(__name__, template_folder="templates")
 app.config["APPLICATION_ROOT"] = f"{BASE_URL}"
